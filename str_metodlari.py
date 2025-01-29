@@ -56,10 +56,12 @@ print(x25)
 x26="I love python"
 print(x26.find("love")) # alınan parametreye göre indeks araması yapar ve döndürür.
 ######################### .find() ######################################
-
-
-######################### .find() ######################################
-
-######################### .find() ######################################
-
-######################### .find() ######################################
+x27="python, javadan daha kolay anlaşılır bir programlama diliymiş."
+x28=x27.replace("kolay", "zor") # saymak istediğin harfi veya metni parametre olarak girmelisin
+print(x28)
+######################### .format() ######################################
+adi="Niyazi"
+soyadi="Çalışkan"
+sinifi="5/C"
+OgBilgi=[adi,soyadi,sinifi]
+print("Öğrencinin Adı:{},Öğrencinin Soyadı:{},Öğrencinin Sınıfı:{}".format(OgBilgi[0],OgBilgi[1],OgBilgi[2]))
