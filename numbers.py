@@ -1,0 +1,3 @@
+
+x="SERDAR"
+print(x)
