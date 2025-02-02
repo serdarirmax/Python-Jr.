@@ -11,13 +11,13 @@ print("Vücud kitle endeksinizi ögrenmek için sırasıyla boy ve kilonuzu giri
 boy=float(input("Boyunuz(cm)..:"))
 boymt=(boy/100)
 kg=int(input("Kilonuz(kg)..:"))
-vke=kg/(boymt*boymt)
-print("Vücud Kitle Indexiniz:",vke)
+vke=round((kg/(boymt**2)),2)               # round (,2) virgülden sonra 2 değer vermek için.
+                                           # **2 karesini almanın pratik yolu
 if vke < 20:
-    print("Zayıfsınız")
+    print(f"Vücut kitle endeksiniz {vke} İdeal kilonun altındasınız.")
 elif vke < 25:
-    print("ideal kilodasınız")
+    print(f"Vücut kitle endeksiniz {vke} ideal kilodasınız")
 elif vke < 30:
-    print("Fazla Kilolusunuz")
+    print(f"Vücut kitle endeksiniz {vke} Fazla Kilolusunuz")
 else:
-    print("Obezsiniz")
+    print(f"Vücut kitle endeksiniz {vke} Obezsiniz")
