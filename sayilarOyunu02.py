@@ -4,7 +4,7 @@
 sayi=25
 hak=5
 while hak>0:
-    Tahmin = int(input("Lütfen pozitif bir tam sayı giriniz: "))
+    Tahmin=int(input("Lütfen pozitif bir tam sayı giriniz: "))
 
     if Tahmin<0:
         print("Girilen sayı pozitif tam sayı değildir!")
